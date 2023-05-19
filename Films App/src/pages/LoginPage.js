@@ -5,7 +5,9 @@ export default function LoginPage(){
     return(
         <View style={styles.container}>
             <Text>Pagina de Login</Text>
-            <Link style={styles.link} to={{screen: "Página de Registro"}}>Registre-se</Link>
+
+
+            <Link style={styles.button} to={{screen: "Página de Registro"}}>Registre-se</Link>
         </View>
     )
 }
@@ -16,13 +18,17 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: 'blue'
+        backgroundColor: '#FCF7FF'
     },
-    link: {
-        width: '80%',
-        height: '40px',
-        backgroundColor: 'orange',
-        textAlign: 'center',
+    button: {
+        alignItems: 'center',
+        justifyContent: 'center',
+        paddingVertical: 12,
+        paddingHorizontal: 32,
+        elevation: 3,
+        backgroundColor: 'red',
+        borderRadius: '10px',
     }
 })
+
 
