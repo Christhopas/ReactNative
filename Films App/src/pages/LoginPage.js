@@ -4,7 +4,6 @@ import { Link } from '@react-navigation/native';
 export default function LoginPage(){
     return(
         <View style={styles.container}>
-            <Text>Pagina de Login</Text>
 
 
             <Link style={styles.button} to={{screen: "Página de Registro"}}>Registre-se</Link>
@@ -26,9 +25,11 @@ const styles = StyleSheet.create({
         paddingVertical: 12,
         paddingHorizontal: 32,
         elevation: 3,
-        backgroundColor: 'red',
+        backgroundColor: 'black',
+        color: 'white',
         borderRadius: '10px',
+        boxShadow: "0px 4px 19px -2px rgba(0,0,0,0.75)",
+
     }
 })
-
 
