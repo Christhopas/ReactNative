@@ -2,7 +2,7 @@ import { useState } from "react"
 import { TextInput, StyleSheet, View } from "react-native"
 
 
-export default function Registro(){
+export default function Register(){
     
     const [nome, setNome] = useState("")
     const [usuario, setUsuario] = useState("")
