@@ -1,0 +1,52 @@
+import { StyleSheet } from "react-native";
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: "#FCF7FF",
+  },
+
+  img: {
+    height: 200,
+    width: 200,
+    borderRadius: 20,
+  },
+
+  txt: {
+    color:'black',
+    fontSize: 40,
+    marginBottom: 40,
+    marginTop: 50
+  },
+
+  input: {
+    borderWidth: 1,
+    borderColor: 'black',
+    width: '70%',
+    height: 40,
+    padding: 5,
+    marginBottom: 10,
+    borderRadius: 10,
+  },
+
+  btnLogin: {
+    borderWidth: 2,
+    borderColor: 'black',
+    width: '70%',
+    height: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 5,
+    backgroundColor: 'black',
+  },
+  viewLinks: {
+    marginTop: 10,
+    flexDirection: 'row',
+    width: '70%',
+    justifyContent: 'space-between',
+  }
+});
+
+export default styles;
